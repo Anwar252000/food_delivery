@@ -1,0 +1,64 @@
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 12px;
+}
+
+#home{
+    padding: 3px 35px;
+    height: 420px;
+}
+
+#home::before{
+    height: 65%;
+}
+
+#home p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+#services{
+  flex-direction: column;
+
+}
+
+#services .box img{
+    width: 50%;
+}
+
+.h-secondry{
+    font-size: 1.8rem;
+}
+
+#contact-box input,
+#contact-box textarea{
+    font-size: 9px;
+}
+
+#contact-box input[type="submit"]{
+    font-size: 9px;
+}
+
+#contact-box label{
+    font-size: 0.7rem;
+}
+
+#topcontrol{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+}
